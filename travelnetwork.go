@@ -15,9 +15,10 @@ type Link struct {
 
 //Where the trip is starting from, going to, and the path to get there.
 type Network struct {
-	Start  City
-	Target City
+	CurrentCity  City
+	TargetCity City
 	Path   []City
+	PathWeight int64
 }
 
 func SetStartCity(city string) Network {
@@ -25,4 +26,16 @@ func SetStartCity(city string) Network {
 	newNetwork := Network{Start: startCity}
 
 	return newNetwork
+}
+
+func GetCity(network Network) Network {
+	for _, nextCity := range 
+	network.Path = append(network.Path, network.Start)
+	
+}
+
+func SearchForCity(city string, network Network) Network {
+
+
+	return
 }
