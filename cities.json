@@ -1,0 +1,25 @@
+[
+    {
+        "Name": "San Diego",
+        "Neighbors": ["LA", "Phoenix"]
+    },
+    {
+        "Name": "LA",
+        "Neighbors": ["San Diego", "Las Vegas", "San Francisco"]
+    },
+    {
+        "Name": "San Francisco",
+        "Neighbors": ["LA", "Salt Lake City", "Portland"]
+    },
+    {
+        "Name":"Portland",
+        "Neighbors": ["Seattle", "San Francisco"]
+    },
+    {
+        "Name": "Phoenix",
+        "Neighbors": ["San Diego", "Albuquerque", "Las Vegas"]
+    },
+    {
+        
+    }
+]
